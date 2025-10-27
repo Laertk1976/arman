@@ -9,7 +9,7 @@ function ImagePopIn() {
       <div className="flex justify-center items-center w-full bg-gray-100 p-4">
         <img
           // src={"/src/assets/images/20230807_220514.jpg"}
-           src={"/src/assets/images/20230807_220514.jpg"}
+          src={"./src/assets/images/20230807_220514.jpg"}
           alt={"Horizontally Centered Image"}
 
           className="rounded-lg shadow-xl mx-auto w-200 h-auto
@@ -53,7 +53,6 @@ function App() {
           </div>
         )}
       </div>
-
     </>
   )
 }
